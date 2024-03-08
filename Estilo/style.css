@@ -1,0 +1,44 @@
+/* CONFIGURAÇÕES GLOBAIS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 1rem 5%;
+}
+
+.cartao_linha1{
+    padding: 0 0 4vh 1vw;    
+}
+
+.cartao_linha1 h2{
+    margin: 2rem;
+}
+
+.card{
+    margin: 15px;
+    padding: 1rem;
+    border-radius: 2rem 0.5rem;
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.10);
+    box-shadow: 10px 10px 20px #000000ab;
+}
+
+.img_card{
+    border-radius: 1rem;
+}
+
+.botao_card{
+    background-color: #BF2C1F;
+    border: none;
+}
+
+.botao_card:hover{
+    background-color: #400404;
+}
