@@ -1,4 +1,4 @@
-/* CONFIGURAÇÕES GLOBAIS */
+/* ESTILOS GLOBAIS */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +8,14 @@
 
 body{
     margin: 1rem 5%;
+}
+
+
+/* ESTILOS CARDS  */
+h2{
+    padding: 2% 0;
+    border-bottom: 1px solid #dddddd;
+    
 }
 
 .cartao_linha1{
@@ -34,11 +42,18 @@ body{
     border-radius: 1rem;
 }
 
+.card-text{
+    height: 62%;
+}
+
 .botao_card{
     background-color: #BF2C1F;
     border: none;
+    position: absolute;
 }
 
 .botao_card:hover{
     background-color: #400404;
 }
+
+/* ESTILOS RODAPÉ */
