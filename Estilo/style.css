@@ -56,4 +56,16 @@ h2{
     background-color: #400404;
 }
 
+.teste{
+    width: 50%;
+    height: 16px;
+}
+
+.cartao_curiosidades{
+    background-color: #BF2C1F;
+    border: 1px solid #000000ab;
+    border-radius: 20px;
+    width: 60%;
+}
+
 /* ESTILOS RODAPÉ */
