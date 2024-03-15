@@ -10,6 +10,11 @@ body{
     margin: 1rem 5%;
 }
 
+span{
+    font-weight: bold;
+    
+}
+
 /* BOTÕES */
 .botao_card{
     background-color: #BF2C1F;
@@ -80,15 +85,42 @@ h2{
 
 /* CHURRASCO */
 
+
+
 /* CURIOSIDADES */
+
 
 /* HISTORIA DO CHURRASCO */
 
+/* TERMO */
+
 .texto-01{
-    text-indent: 1rem;    
+    margin: 2% 0px;
+    font-size: 1.2em;
     text-align: justify;
-    
+    line-height: 30px;
 }
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%
+}
+
+/* VERSÕES */
+
+.texto-02{
+    margin: 2% 0px;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+
+
 
 
 /* ESTILOS RODAPÉ */
