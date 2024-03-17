@@ -56,7 +56,7 @@ span{
 /* ESTILOS CARDS  */
 h2{
     padding: 2% 0;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #000000;
     
 }
 
@@ -85,7 +85,9 @@ h2{
 }
 
 .card-text{
-    height: 62%;
+    overflow: auto;
+    font-size: 0.9em;
+    height: 60%;
 }
 
 /* DOCES */
