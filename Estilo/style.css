@@ -17,7 +17,7 @@
 }
 
 body{
-    margin: 5% 2%;
+    margin: 10% 2%;
 }
 
 nav{
@@ -197,6 +197,13 @@ a{
 
 .fonte{
     font-style: italic;
+}
+
+/* FORMULARIO */
+
+.body_formulario{
+    padding: 1% 0 2% 6%;
+    border-radius: 1%;
 }
 
 /* ESTILOS RODAPÉ */
