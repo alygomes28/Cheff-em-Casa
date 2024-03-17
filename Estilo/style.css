@@ -17,10 +17,16 @@
 }
 
 body{
-    margin: 1rem 5%;
+    margin: 5% 2%;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 15%;
 }
 
 nav > .menu a{
+   
     color: var(--cor1);
 }
 
@@ -83,7 +89,7 @@ picture > .historia_do_churrasco{
 /* ESTILOS CARDS  */
 h2{
     padding: 2% 0;
-    border-bottom: 1px solid var(--cor0);
+    border-bottom: 1px solid #00000033;
     
 }
 
@@ -191,12 +197,11 @@ a{
 
 .fonte{
     font-style: italic;
-    fon
 }
 
-
-
-
-
-
 /* ESTILOS RODAPÉ */
+
+.rodape{
+    margin-top: 10%; 
+    border-top: 1px solid #00000022;
+}
