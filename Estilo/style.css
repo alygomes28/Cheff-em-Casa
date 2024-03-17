@@ -1,3 +1,13 @@
+@charset "utf-8";
+
+:root{
+    --cor0:#000000;
+    --cor1:#BF2C1F;
+    --cor2:#ffffff;
+    --cor3:#400404;
+
+}
+
 /* ESTILOS GLOBAIS */
 *{
     margin: 0;
@@ -9,6 +19,15 @@
 body{
     margin: 1rem 5%;
 }
+
+nav > .menu a{
+    color: var(--cor1);
+}
+
+nav > .menu a:hover{
+    color: var(--cor3);
+}
+
 
 span{
     font-weight: bold;
@@ -22,41 +41,49 @@ span{
     line-height: 30px;
 }
 
+picture > .historia_do_churrasco{
+    width: 100%;
+    max-width: 500px;
+    max-height: 370px;
+    border-radius: 5%; 
+    box-shadow: 5px 5px 15px #000000ab;
+}
+
 /* BOTÕES */
 .botao_card{
-    background-color: #BF2C1F;
+    background-color: var(--cor1);
     border: none;
     position: absolute;
     text-decoration: none;
 }
 
 .botao_card:hover{
-    background-color: #400404;
+    background-color: var(--cor3);
     text-decoration: none;
 }
 
 .botao_header{
-    background-color: #BF2C1F;
+    background-color: var(--cor1);
     border: none;
 }
 
 .botao_header:hover{
-    background-color: #400404;
+    background-color: var(--cor3);
 }
 
 .botao_header a{
-    color: white;
+    color: var(--cor2);
     text-decoration: none;
 }
 
 .botao_header a:hover{
-    color: white;
+    color: var(--cor2);
 }
 
 /* ESTILOS CARDS  */
 h2{
     padding: 2% 0;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid var(--cor0);
     
 }
 
@@ -101,6 +128,29 @@ h2{
 
 /* HISTORIA DO CHURRASCO */
 
+
+.curiosidades_body > .botao_card{
+    position: relative;
+}
+
+picture > .churrasco_gaucho{
+    margin: 1%;
+    width: 100%;
+    max-width: 900px;
+    max-height: 560px;
+    border-radius: 3%; 
+   
+}
+
+picture > .churrasco_gaucho > .img_pequena{
+    width: 100%;
+
+}
+
+figcaption{
+    font-size: 0.8em;
+}
+
 /* TERMO */
 
 .texto{
@@ -123,6 +173,8 @@ figure img {
 }
 
 
+
+
 /* VERSÕES */
 
 .texto-02{
@@ -134,7 +186,7 @@ figure img {
 
 a{
     text-decoration: none;
-    color: #BF2C1F;
+    color: var(--cor1);
 }
 
 .fonte{
