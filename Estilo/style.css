@@ -23,10 +23,10 @@ body{
 nav{
     background-color: #ffffff;
     height: 15%;
+    padding: 0 15%;
 }
 
 nav > .menu a{
-   
     color: var(--cor1);
 }
 
@@ -37,7 +37,6 @@ nav > .menu a:hover{
 
 span{
     font-weight: bold;
-    
 }
 
 .texto{
@@ -126,6 +125,7 @@ h2{
 /* DOCES */
 
 /* CHURRASCO */
+
 
 
 
