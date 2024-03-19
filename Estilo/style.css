@@ -131,6 +131,13 @@ h2{
 
 /* CURIOSIDADES */
 
+.card_curiosidades{
+    margin: 2%;
+}
+
+.icon{
+    color: var(--cor1);
+}
 
 /* HISTORIA DO CHURRASCO */
 
