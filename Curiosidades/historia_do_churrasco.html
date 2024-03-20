@@ -16,43 +16,71 @@
 
 <body>
 
-  <!-- CABEÇALHO DA PÁGINA -->
-  <header>
-    <div class="container" id="nav-container">
-      <nav class="d-flex fixed-top align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a class="nav-brand" href="#">
-          <img src="../Imagens/LOGO 01.png" alt="Logo" width="160" height="160">
+  <header> <!--CABEÇALHO DA PÁGINA-->
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../Imagens/LOGO 01.png" alt="" width="120" height="120"> 
+          Cheff em Casa 
         </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cheff em Casa</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
 
-        <ul class="nav col-8 col-md-auto mb-2 justify-content-center justify-content-md-between mb-md-0 menu">
-          <li>
-            <a href="../index.html" class="nav-link px-2">Inicio</a>
-          </li>
-          <li>
-            <a href="../salgados.html" class="nav-link px-2">Salgados</a>
-          </li>
-          <li>
-            <a href="../doces.html" class="nav-link px-2">Doces</a>
-          </li>
-          <li>
-            <a href="../curiosidades.html" class="nav-link px-2">Curiosidades</a>
-          </li>
-        </ul>
+          <div class="offcanvas-body">
+            
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../salgados.html">Salgados</a>
+              </li>
 
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn btn-outline-primary me-2 botao_header">
-            <a href="..login.html">Login</a>
-          </button>
+              <li class="nav-item">
+                <a class="nav-link" href="../doces.html">Doces</a>
+              </li>
 
-          <button type="button" class="btn btn-outline-primary botao_header">
-            <a href="..cadastro.html" class="button-cadastro">Cadastre-se</a>
-          </button>
+              <li class="nav-item">
+                <a class="nav-link" href="../curiosidades.html">Curiosidades</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Area do Usuário
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="container">
+                        <button class="btn btn-outline-success botao_header col-5" type="submit" style="margin:0 5%;">
+                          <a href="../login.html">Login</a>
+                        </button>
+                        <button type="button" class="btn btn-outline-danger botao_header col-5">
+                          <a href="../cadastro.html">Cadastre-se</a>
+                        </button>
+                    </div>
+                  </li>
+                </ul>
+
+              </li>
+
+            </ul>
+          </div>
 
         </div>
-      </nav>
-    </div>
-  </header>
-  <!-- FIM DO CABEÇALHO DA PÁGINA -->
+      </div>
+    </nav>
+  </header> <!--FECHAMENTO CABEÇALHO DA PÁGINA-->
 
   <!-- CONTEÚDO PRINCIPAL -->
   <main>
