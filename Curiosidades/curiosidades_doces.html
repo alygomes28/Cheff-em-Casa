@@ -20,7 +20,7 @@
 <body>
 
   <!-- CABEÇALHO DA PÁGINA -->
-  <header>
+  <!-- <header> -->
     <div class="container" id="nav-container">
       <nav class="d-flex fixed-top align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <a class="nav-brand" href="#">
@@ -54,8 +54,66 @@
         </div>
       </nav>
     </div>
-  </header>
+  <!-- </header> -->
   <!-- FIM DO CABEÇALHO DA PÁGINA -->
+
+  <header>
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../Imagens/LOGO 01.png" alt="" width="120" height="120"> 
+            Cheff em Casa 
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cheff em Casa</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../salgados.html">Salgados</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../doces.html">Doces</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../curiosidades.html">Curiosidades</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Area do Usuário
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="container">
+                          <button class="btn btn-outline-success botao_header" type="submit"><a href="../login.html">Login</a></button>
+                          <button type="button" class="btn btn-outline-danger botao_header"><a href="../cadastro.html">Cadastre-se</a></button>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+  </header>
 
   <!-- CONTEÚDO PRINCIPAL -->
   <main>
@@ -65,28 +123,38 @@
           10 Curiosidades sobre doces de festa
         </h2>
 
-        <div class="texto">
+        <div> <!-- Fim Div Picture-->
+          <figure>
+            <picture>
+              
+              <img src="../Imagens/decoração_aniversário.jpg" alt="Decoração de aniversário" title="Decoração de aniversário" class="churrasco_gaucho">
+            </picture>
+            <figcaption>Foto: Decoração de aniversário</figcaption>
+          </figure>
+        </div> <!-- Fim Div Picture-->
+
+        <div class="texto"> <!-- texto -->
           <p>Se existe uma palavra que é sinônimo de comida boa, então essa palavra é “festa”. Eventos são uma boa razão para servir coisas gostosas, como os famosos doces de festa. Mas, sabia que existem coisas sobre eles que nem todos conhecem? Vamos dar uma olhada em algumas curiosidades sobre doces de festa.</p>
 
           <p>Sim, esses docinhos escondem segredos, mas não se assuste! Não é nada que vai te fazer mudar de ideia sobre o quanto eles são deliciosos. Mas agora, chega de enrolação, vamos conferir!</p>
         
-        </div>
+        </div> <!-- Fim texto -->
         
         
-        <div>
+        <div> <!-- Fim Div Picture-->
           <figure>
             <picture>
               
-              <img src="../Imagens/brigadeiro-gourmet.jpg" alt="Churrasco Gaúcho" title="Churrasco Gaúcho" class="churrasco_gaucho">
+              <img src="../Imagens/brigadeiro-gourmet.jpg" alt="Brigadeiro Gourmert" title="Brigadeiro Gourmert" class="churrasco_gaucho">
             </picture>
-            <figcaption>Foto: História do churrasco – Churrasco Gaúcho (divulgação)</figcaption>
+            <figcaption>Foto: Brigadeiro Gourmert</figcaption>
           </figure>
-        </div>
+        </div> <!-- Fim Div Picture-->
 
       
         <h2>10 curiosidades sobre doces de festa que você não sabia</h2>
         
-        <div class="texto">
+        <div class="texto"> <!-- texto -->
           <p><i class="bi bi-1-circle-fill icon"></i> A curiosidade número um é a mais brasileira de todas! Sabe aquele doce maravilhoso, feito de leite condensado, chocolate e margarina, que quase ninguém ousa dizer que é ruim?</p>
 
           <p>Pois é, o brigadeiro foi uma invenção nacional. Eduardo Gomes era brigadeiro do exército, e era um homem muito bonito. Por isso, para arrecadar dinheiro para sua campanha, suas fãs criaram esse doce e o batizaram como brigadeiro em sua homenagem. Leia mais sobre esta história aqui.</p>
@@ -95,48 +163,70 @@
 
           <p><i class="bi bi-3-circle-fill icon"></i> O beijinho foi um doce criado em Portugal, por freiras que passavam grande parte de seu tempo criando novas receitas de doce. Ele veio ao Brasil junto com a família real, e, com o tempo, foi recebendo novos ingredientes até se tornar o beijinho que conhecemos.</p>
         
-        </div>
+        </div> <!-- Fim texto -->
 
-        <div>
+        <div> <!-- Div Picture -->
             <figure>
               <picture>
                 
-                <img src="../Imagens/beijinho.jpg" alt="Churrasco Gaúcho" title="Churrasco Gaúcho" class="churrasco_gaucho">
+                <img src="../Imagens/beijinho.jpg" alt="Beijinho" title="Beijinho" class="churrasco_gaucho">
               </picture>
-              <figcaption>Foto: História do churrasco – Churrasco Gaúcho (divulgação)</figcaption>
+              <figcaption>Foto: Beijinho</figcaption>
             </figure>
-          </div>
+          </div> <!-- Fim Div Picture-->
         
               
-        <div class="texto">
-          <p>A história do churrasco nos Estados Unidos é uma tradição antiga que nos remonta às suas raízes no Sul. 
-             É uma típica refeição que se prepara ao ar livre.
-          </p>
-          <p>O churrasco americano é feito com uma variedade de cortes de carne, que vão desde carne bovina, suína, aves, caranguejo e camarão.</p>
-          <p>Uma das carnes mais populares para churrasco nos Estados Unidos é a carne bovina, que é marinada e assada direto no fogo.</p>
-          <p>A carne suína é também popular, em especial a costela, que é temperada com ervas e especiarias antes de assar. As aves também são usadas para churrasco,    comumente peru, pato ou frango.</p>
-          <p>Acompanhamentos típicos nos Estados Unidos são todos os tipos de saladas, batatas assadas, cebolas caramelizadas, pão de milho e galinha de cabidela. Também é comum servir molhos como ketchup, molho de tomate e mostarda para acompanhar a carne assada. No fim, a sobremesa é geralmente bolo de chocolate e refrigerante.</p>
-        </div>
-        
-        <h2>Churrasco Brasileiro</h2>
-        
-        <div class="texto">
-          <p>O churrasco brasileiro é um dos símbolos da culinária brasileira, apreciado por muitos e servido em todos os tipos de eventos, desde pequenos jantares familiares a grandes festas. O churrasco é preparado com carne bovina, suína ou de frango, mas variações regionais incluem carne de jacaré, peixe e até mesmo carne de lula.</p>
-          <p>Os acompanhamentos típicos do churrasco brasileiro incluem farofa, arroz, vinagrete, salada verde e couve. O preparo também varia de acordo com a região. No Sul, o churrasco é feito por um “churrasqueiro” especializado, assando a carne na brasa. No Nordeste, é preparado na panela de ferro, que produz uma crosta crocante por fora e suculenta por dentro.</p>
-          <p>Veja também: <a href="https://churrastop.com.br/geral/surpreenda-seus-convidados-com-um-churrasco-grego-incrivel/" target="_blank" rel="external">Surpreenda com um churrasco grego incrível!</a></p>
-        </div>
-        
-        <h2>Churrasco mais caro do mundo</h2>
-        
-        <div class="texto">
-          <p>Uma nova tendência entre as pessoas de alta renda é o famoso churrasco servido pelo <a href="https://gq.globo.com/Lifestyle/Gastronomia/noticia/2021/08/don-juan-das-carnes-churrasqueiro-performatico-serve-marketing-no-ponto-certo.html" target="_blank" rel="external">chef turco Nusret Gokce</a>, mais conhecido como Salt Bae. Seu restaurante, localizado em Istambul, Turquia, oferece um churrasco à la carte que custa aproximadamente US$ 1.000 por pessoa.
-          </p>
-          <p>Como se não bastasse o alto preço, o serviço exclusivo inclui um atendimento personalizado, comida de qualidade, vinhos e até mesmo um show de dança. Os clientes podem saborear diversas carnes de qualidade, desde antílopes a lagartos de água doce, além de também aproveitarem o ambiente luxuoso criado por Gokce.</p>
-          <p>Salt Bae é tão bem sucedido e conhecido que já tem seus próprios restaurantes em cidades como Nova Iorque, Miami e Londres. Se você está disposto a pagar o preço para experimentar essa experiência gastronômica única, então o churrasco de Salt Bae é a melhor opção.</p>
+        <div class="texto"> <!-- texto -->
 
-        <div class="fonte"><a href="https://churrastop.com.br/dicas/historia-do-churrasco-5-curiosidades/" target="_blank" rel="external">
-          Fonte: Churras Top</a></div>
-        </div>
+          <p><i class="bi bi-4-circle-fill icon"></i> É comum hoje em dia vermos mini churros servidos nas festas. E mais uma curiosidade sobre doces de festa é que os churros surgiram na Espanha, e eram consumidos na hora do café da tarde, junto com uma boa xícara de chocolate quente!
+          </p>
+
+          <p><i class="bi bi-5-circle-fill icon"></i> Você sabia que o nome “camafeu” vem do latim? Era uma palavra usada para se referir a uma pedra esculpida, muito usada em colares há cerca de 300 a.C. O doce recebeu esse nome devido à semelhança do formato da pedra.</p>
+
+          <div>
+            <figure>
+              <picture>
+                
+                <img src="../Imagens/Camafeu-de-Nozes-1-1.jpg" alt="Camefeu de nozes" title="camefeu de nozes" class="churrasco_gaucho">
+              </picture>
+              <figcaption>Foto: Camefeu de Nozes</figcaption>
+            </figure>
+          </div>
+
+          <p><i class="bi bi-6-circle-fill icon"></i> Uma pesquisa feita na UNICAMP revelou que a bala de coco foi originalmente criada na Idade Média pelos árabes, e era feita com vinagre, água e açúcar.</p>
+
+          <p><i class="bi bi-7-circle-fill icon"></i> O pirulito foi inventado na Catalunha e era chamado de “gol” devido ao seu formato de bola.</p>
+
+          <div>
+            <figure>
+              <picture>
+                
+                <img src="../Imagens/pirulito_de_chocolate_146_orig.jpg" alt="Pirulito de chocolate" title="Pirulito de Chocolate" class="churrasco_gaucho">
+              </picture>
+              <figcaption>Foto: Pirulito de Chocolate</figcaption>
+            </figure>
+          </div>
+
+          <p><i class="bi bi-8-circle-fill icon"></i> O chocolate está presente em quase todos os doces de festa. Você sabia que a palavra chocolate significa “alimento dos Deuses” em grego?</p>
+        
+          <p><i class="bi bi-9-circle-fill icon"></i> Mais uma curiosidade sobre o brigadeiro! Assim que foi inventado, esse doce levava na receita ovos, leite, manteiga, açúcar e chocolate. Dá para imaginar?</p>
+
+          <p><i class="bi bi-1-circle-fill icon"></i><i class="bi bi-0-circle-fill icon"></i> Outro ingrediente principal da maioria dos doces de festa é o leite condensado, que foi criado no século XIX, numa época em que era preciso conservar o leite sem que ele estragasse.</p>
+
+          <p>Veja também: Veja sugestões de docinhos para 
+            <a href="https://jeannenovais.com.br/doces-para-casamento/" target="_blank" rel="external">casamentos</a>, 
+            <a href="https://jeannenovais.com.br/doces-para-cha-de-bebe/" target="_blank" rel="external">chá de bebê</a>, 
+            <a href="https://jeannenovais.com.br/doces-para-festa-de-aniversario/" target="_blank" rel="external">aniversários</a> e 
+            <a href="https://jeannenovais.com.br/doces-para-festa-de-batizado/" target="_blank" rel="external">batizados</a>.
+          </p>
+        
+        
+        
+
+          <div class="fonte"><a href="https://jeannenovais.com.br/10-curiosidades-sobre-doces-de-festa/" target="_blank" rel="external">
+            Fonte: Jeanne Novais</a>
+          </div>
+        </div> <!-- Fim texto -->
 
       </div>
     </article>

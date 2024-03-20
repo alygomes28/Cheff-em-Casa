@@ -67,22 +67,9 @@ picture > .historia_do_churrasco{
     text-decoration: none;
 }
 
-.botao_header{
-    background-color: var(--cor1);
-    border: none;
-}
-
-.botao_header:hover{
-    background-color: var(--cor3);
-}
-
 .botao_header a{
-    color: var(--cor2);
+    color: var(--cor);
     text-decoration: none;
-}
-
-.botao_header a:hover{
-    color: var(--cor2);
 }
 
 /* ESTILOS CARDS  */
